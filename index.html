@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Script</title>
+  <link rel="icon" type="image/x-icon" href="./images/logojs.ico">
+  <link rel="stylesheet" href="./index.css" class="rel">
+  <script src="./index.js" defer></script>
+</head>
+<body>
+  <header id="header">
+    <h1 id="main-title">Seja bem vindo ao Tic-Tac-JS!</h1>
+    <h1 id="subtitle">Insira o nome dos jogadores!</h1>
+    <div id="names">
+      <label for="playerOne">Jogador 1 (X):</label>
+      <input type="text" id="player1" placeholder="Jogador 1" class="players">
+      <label for="playerTwo">Jogador 2 (O):</label>
+      <input type="text" id="player2" placeholder="Jogador 2" class="players">
+      <br>
+      <h2>Vez de: <span id="turnPlayer"></span></h2>
+      <button id="start">Jogar!</button>
+    </div>
+  </header>
+  <main id="main">
+    <section id="table">
+      <span class="game-option" id="item1" data-region="0.0">
+      </span>
+      <span class="game-option" id="item2" data-region="0.1">
+      </span>
+      <span class="game-option" id="item3" data-region="0.2">
+      </span>
+      <span class="game-option" id="item4" data-region="1.0">
+      </span>
+      <span class="game-option" id="item5" data-region="1.1">
+      </span>
+      <span class="game-option" id="item6" data-region="1.2">
+      </span>
+      <span class="game-option" id="item7" data-region="2.0">
+      </span>
+      <span class="game-option" id="item8" data-region="2.1">
+      </span>
+      <span class="game-option" id="item9" data-region="2.2">
+      </span>
+    </section>
+  </main>
+  <footer>
+    <h1 class="padding-short green-text">Feito por davielachesis</h1>
+    <section class="links align-center text-center ">
+      <a href="https://github.com/davielachesis" target="_blank" class=" padding-short ">
+        <img src="./images/git.png" alt="Git Logo">
+      </a>
+      <a href="https://www.linkedin.com/in/davi-deosmar-batista-oliveira-miranda/" target="_blank" class=" padding-short ">
+        <img src="./images/lnkdn.png" alt="linkedin logo">
+      </a>
+    </section>
+  </footer>
+</body>
+</html>
