@@ -8,4 +8,10 @@
 
 * Script detecta a vitória de um dos jogadores e a insere na tela através do informador do jogo:
 
-![image](https://user-images.githubusercontent.com/91736880/213178625-4681ab41-a1bf-49ed-8698-9c007166e320.png)
+![image](https://user-images.githubusercontent.com/91736880/213178754-209c4e74-ba2c-4f14-8d0a-8b4bf055c0f0.png)
+
+* O sistema pode detectar a existência dos empates: 
+
+![image](https://user-images.githubusercontent.com/91736880/213178948-7db02655-9850-4761-9f03-a309f68aa63b.png)
+
+# Notas: O botão 'Jogar' possui a funcionalidade de reiniciar o jogo após seu término, ou resetá-lo durante seu percuros.
